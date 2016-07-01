@@ -6,3 +6,4 @@ Next steps:
 3. Get the ghost(s) ramdomly moving
 4. Add a background music
 5. Have pacman go through the wall holes and appear on the other side of the world.
+6. Stop the key events when the pacman encounters a ghost
