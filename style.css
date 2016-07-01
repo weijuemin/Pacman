@@ -1,0 +1,135 @@
+body {
+    background: black;
+}
+.container {
+    background: black;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 90px 83px;
+    height: 700px;
+    color: #fff;
+}
+#veil {
+    background: rgba(55,66,120,.6);
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    z-index: 100;
+}
+.c1 {
+    color: gold;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+#restart {
+    margin-top: 100px;
+    color: gold;
+    text-align: center;
+    font-weight: bold;
+}
+#restart span {
+    cursor: pointer;
+    border: 1px solid gold;
+}
+.wrapper {
+    position: relative;
+    width: 820px;
+}
+#worldWrap {
+    width: 820px;
+}
+.row {
+    margin-left: 0px;
+    display: flex;
+    flex-direction: row;
+    width: 820px;
+}
+.brick, .coin, .empty {
+    width: 20px;
+    height: 20px;
+}
+.brick {
+    background-color: firebrick;
+    border-radius: 4px;
+}
+.coin {
+    background: url('coin.gif') no-repeat center;
+    background-size: 60% 60%;
+}
+#pacman {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: url('pacman.gif') no-repeat center;
+    background-size: 100% 100%;
+}
+.upRotate {
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+.leftRotate {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.downRotate {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.ghost {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
+#ghost0 {
+    position: absolute;
+    top: 200px;
+    left: 420px;
+    background: url('ghost0.gif') no-repeat center;
+    background-size: 90% 90%;
+}
+#ghost1 {
+    position: absolute;
+    top: 180px;
+    left: 420px;
+    background: url('ghost1.gif') no-repeat center;
+    background-size: 90% 90%;
+}
+#ghost2 {
+    position: absolute;
+    top: 180px;
+    left: 420px;
+    background: url('ghost2.gif') no-repeat center;
+    background-size: 90% 90%;
+}
+#ghost3 {
+    position: absolute;
+    top: 180px;
+    left: 440px;
+    background: url('ghost3.gif') no-repeat center;
+    background-size: 90% 90%;
+}
+
+#scoreBar {
+    width: 100px;
+    height: 50px;
+    border: 3px groove gold;
+    color: gold;
+    text-align: center;
+    margin: 30px auto 10px;
+    padding-top: 10px;
+    font-size: 18px;
+}
